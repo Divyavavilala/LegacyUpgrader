@@ -1,20 +1,69 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# LegacyUpgrader
 
-# Run and deploy your AI Studio app
+AI-assisted legacy modernization platform for React and JavaScript ecosystems.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/d37f3e08-35e5-4b4d-b2fa-1cce2e2b3b1f
+- Legacy React stack detection
+- Babel/Webpack modernization analysis
+- Dependency risk analysis
+- Redux-Saga architecture inspection
+- Migration report generation
+- Bundle optimization insights
+- Security & maintainability checks
+- AI-powered modernization recommendations
 
-## Run Locally
+## Supported Technologies
 
-**Prerequisites:**  Node.js
+- React
+- Redux
+- Redux-Saga
+- Babel
+- Webpack
+- Styled Components
+- ESLint
+- Jest
 
+## Tech Stack
 
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Groq API
+- AI-assisted static analysis
+
+## Local Setup
+
+```bash
+npm install
+npm run dev
+```
+
+## Environment Variables
+
+Create `.env`
+
+```env
+VITE_GROQ_API_KEY=your_api_key
+```
+
+## Deployment
+
+Deployed using Vercel.
+
+## Purpose
+
+LegacyUpgrader analyzes outdated frontend repositories and generates modernization reports covering:
+- deprecated dependencies
+- build optimization
+- architecture cleanup
+- migration opportunities
+- maintainability improvements
+
+To run locally :
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+2. Set the `GROQ_API_KEY` in [.env.local](.env.local) to your Groq API key
 3. Run the app:
    `npm run dev`
