@@ -45,7 +45,7 @@ npm run dev
 Create `.env`
 
 ```env
-VITE_GROQ_API_KEY=your_api_key
+GROQ_API_KEY=your_api_key
 ```
 
 ## Deployment
@@ -60,4 +60,5 @@ LegacyUpgrader analyzes outdated frontend repositories and generates modernizati
 - architecture cleanup
 - migration opportunities
 - maintainability improvements
+
 
